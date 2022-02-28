@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./src/**/*.{hmtl,js}"],
+  content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
       borderRadius: {
