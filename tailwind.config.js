@@ -1,9 +1,13 @@
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{html,js}", "./public/index.html"],
   theme: {
     extend: {
       borderRadius: {
         'sm': '.5rem'
+      },
+      spacing: {
+        '128': '32rem',
+        '144': '36rem'
       }
     },
     colors: {
@@ -14,8 +18,6 @@ module.exports = {
     },
     fontFamily: {
       sans: ['Roboto', 'sans-serif']
-    },
-
-  },
-  plugins: [],
+    }
+  }
 }
